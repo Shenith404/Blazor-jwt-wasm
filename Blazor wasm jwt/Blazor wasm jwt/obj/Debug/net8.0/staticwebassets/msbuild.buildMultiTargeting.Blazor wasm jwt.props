@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Blazor wasm jwt.props" />
+</Project>

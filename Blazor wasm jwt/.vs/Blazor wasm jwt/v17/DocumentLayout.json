@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|e:\\university\\github\\blazor jwt authentication wasm\\blazor wasm jwt\\blazor wasm jwt\\auth\\services\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|solutionrelative:blazor wasm jwt\\auth\\services\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|e:\\university\\github\\blazor jwt authentication wasm\\blazor wasm jwt\\blazor wasm jwt\\auth\\services\\ijwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|solutionrelative:blazor wasm jwt\\auth\\services\\ijwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|e:\\university\\github\\blazor jwt authentication wasm\\blazor wasm jwt\\blazor wasm jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|solutionrelative:blazor wasm jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|e:\\university\\github\\blazor jwt authentication wasm\\blazor wasm jwt\\blazor wasm jwt\\auth\\handler\\jwtauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|solutionrelative:blazor wasm jwt\\auth\\handler\\jwtauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|e:\\university\\github\\blazor jwt authentication wasm\\blazor wasm jwt\\blazor wasm jwt\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{869A57D1-CC84-439D-8ABB-727890E3B1AF}|Blazor wasm jwt\\Blazor wasm jwt.csproj|solutionrelative:blazor wasm jwt\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IJwtAuthenticationService.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Auth\\Services\\IJwtAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Blazor wasm jwt\\Auth\\Services\\IJwtAuthenticationService.cs",
+              "ToolTip": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Auth\\Services\\IJwtAuthenticationService.cs",
+              "RelativeToolTip": "Blazor wasm jwt\\Auth\\Services\\IJwtAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T18:03:04.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1620405281:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1876394918:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtAuthenticationHandler.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Auth\\Handler\\JwtAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Blazor wasm jwt\\Auth\\Handler\\JwtAuthenticationHandler.cs",
+              "ToolTip": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Auth\\Handler\\JwtAuthenticationHandler.cs",
+              "RelativeToolTip": "Blazor wasm jwt\\Auth\\Handler\\JwtAuthenticationHandler.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:57:11.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Program.cs",
+              "RelativeDocumentMoniker": "Blazor wasm jwt\\Program.cs",
+              "ToolTip": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Program.cs",
+              "RelativeToolTip": "Blazor wasm jwt\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:49:57.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtAuthenticationService.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Auth\\Services\\JwtAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Blazor wasm jwt\\Auth\\Services\\JwtAuthenticationService.cs",
+              "ToolTip": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Auth\\Services\\JwtAuthenticationService.cs",
+              "RelativeToolTip": "Blazor wasm jwt\\Auth\\Services\\JwtAuthenticationService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIBBwAgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:49:37.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Blazor wasm jwt\\Pages\\Login.razor",
+              "ToolTip": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\Pages\\Login.razor",
+              "RelativeToolTip": "Blazor wasm jwt\\Pages\\Login.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T14:49:25.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

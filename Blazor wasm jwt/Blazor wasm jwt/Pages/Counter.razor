@@ -1,0 +1,25 @@
+﻿@page "/counter"
+@using Blazor_wasm_jwt.Auth.Services
+@inject Blazored.SessionStorage.ISessionStorageService service;
+@inject HttpClient httpClient
+@inject IJwtAuthenticationService jwtAthenticationService
+
+<PageTitle>Counter</PageTitle>
+<p>@name</p>
+
+<button @onclick="Click">Get User Details</button>
+
+@code {
+    private string name = "null";
+
+    public async void Click()
+    {
+
+        // httpClient.DefaultRequestHeaders.Authorization =
+        //  new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", bearer);
+        var result = await jwtAthenticationService.GetUserDetails();
+
+        name = result.UserName;
+
+    }
+}

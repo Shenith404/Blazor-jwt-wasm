@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\obj\\Debug\\net8.0\\compressed\\tpr7f2dehj.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blazor wasm jwt.styles.css",
+      "PackagePath": "staticwebassets\\Blazor wasm jwt.styles.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\Blazor Jwt Authentication wasm\\Blazor wasm jwt\\Blazor wasm jwt\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blazor wasm jwt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blazor wasm jwt.props",
+      "PackagePath": "build\\Blazor wasm jwt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blazor wasm jwt.props",
+      "PackagePath": "buildMultiTargeting\\Blazor wasm jwt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blazor wasm jwt.props",
+      "PackagePath": "buildTransitive\\Blazor wasm jwt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

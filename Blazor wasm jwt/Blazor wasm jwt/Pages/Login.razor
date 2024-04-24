@@ -1,0 +1,78 @@
+﻿@page "/auth/login"
+
+@using Blazor_wasm_jwt.Auth.DTOs
+@using Blazor_wasm_jwt.Auth.Services
+@using Blazored.SessionStorage
+@using Newtonsoft.Json
+@inject NavigationManager NavigationManager
+@inject ISessionStorageService SessionStorage
+@inject IJwtAuthenticationService jwtAthenticationService
+
+
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <EditForm Model="Input" method="post" OnValidSubmit="LoginUser" FormName="login">
+               
+                <h2>Use a local account to log in.</h2>
+                <hr />
+                <ValidationSummary class="text-danger" role="alert" />
+                <div class="form-floating mb-3">
+                    <InputText @bind-Value="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                    <label for="email" class="form-label">Email</label>
+                    <ValidationMessage For="() => Input.Email" class="text-danger" />
+                </div>
+                <div class="form-floating mb-3">
+                    <InputText type="password" @bind-Value="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                    <label for="password" class="form-label">Password</label>
+                    <ValidationMessage For="() => Input.Password" class="text-danger" />
+                </div>
+               
+                <div>
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
+                </div>
+               
+            </EditForm>
+        </section>
+    </div>
+   
+</div>
+<div>@errorMessage</div>
+
+@code {
+    private string? errorMessage;
+
+
+    [SupplyParameterFromForm]
+    private InputModel Input { get; set; } = new();
+
+    [SupplyParameterFromQuery]
+    private string? ReturnUrl { get; set; }
+
+
+
+
+    public async Task LoginUser()
+    {
+
+        AuthenticationRequestDTO requestDTO = new AuthenticationRequestDTO();
+        requestDTO.UserName = Input.Email;
+        requestDTO.Password = Input.Password;
+        errorMessage = await jwtAthenticationService.LoginAsync(requestDTO);
+
+    }
+
+    private sealed class InputModel
+    {
+       
+        public string Email { get; set; } = "";
+
+     
+        public string Password { get; set; } = "";
+
+       
+    }
+
+
+ 
+}
