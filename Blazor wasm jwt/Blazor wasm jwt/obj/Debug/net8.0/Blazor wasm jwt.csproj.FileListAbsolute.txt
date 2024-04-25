@@ -1088,3 +1088,4 @@ E:\University\GitHub\Blazor Jwt Authentication wasm\Blazor wasm jwt\Blazor wasm 
 E:\University\GitHub\Blazor Jwt Authentication wasm\Blazor wasm jwt\Blazor wasm jwt\obj\Debug\net8.0\compressed\ee70ps9chj.gz
 E:\University\GitHub\Blazor Jwt Authentication wasm\Blazor wasm jwt\Blazor wasm jwt\obj\Debug\net8.0\compressed\pokmnpcjcd.gz
 E:\University\GitHub\Blazor Jwt Authentication wasm\Blazor wasm jwt\Blazor wasm jwt\obj\Debug\net8.0\compressed\3b314fdso9.gz
+E:\University\GitHub\Blazor Jwt Authentication wasm\Blazor wasm jwt\Blazor wasm jwt\obj\Debug\net8.0\Blazor wasm jwt.sourcelink.json

@@ -12,6 +12,12 @@
 @code {
     private string name = "null";
 
+    protected override void OnInitialized()
+    {
+        Click();
+        base.OnInitialized();
+    }
+
     public async void Click()
     {
 

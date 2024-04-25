@@ -9,5 +9,7 @@ namespace Blazor_wasm_jwt.Auth.Services
         Task LogoutAcync();
 
         Task<UserModelResponseDTO?> GetUserDetails();
+
+        public Task<bool> Refresh();
     }
 }

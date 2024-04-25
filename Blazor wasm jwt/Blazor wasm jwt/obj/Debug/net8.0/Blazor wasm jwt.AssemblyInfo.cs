@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blazor wasm jwt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e668d9eba415a3bf6e78b5fe0f0034818c24c50")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blazor wasm jwt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blazor wasm jwt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

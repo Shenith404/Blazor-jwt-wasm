@@ -13,6 +13,7 @@ namespace Blazor_wasm_jwt.Auth.Services
 
         private string? _jwtCache;
         private const string JWT_KEY = nameof(JWT_KEY);
+        private const string RERESH_KEY = nameof(RERESH_KEY);
 
         public JwtAuthenticationService(IHttpClientFactory factory, ISessionStorageService sessionStorageService)
         {
@@ -27,14 +28,17 @@ namespace Blazor_wasm_jwt.Auth.Services
             if (string.IsNullOrEmpty(_jwtCache))
                 _jwtCache = await _sessionStorageService.GetItemAsync<string>(JWT_KEY);
 
-            return _jwtCache;
+            return await _sessionStorageService.GetItemAsync<string>(JWT_KEY); 
         }
 
         // Logout User
         public async Task LogoutAcync()
         {
             await _sessionStorageService.RemoveItemAsync(JWT_KEY);
+            await _sessionStorageService.RemoveItemAsync(RERESH_KEY);
+
             _jwtCache = null;
+            await Console.Out.WriteAsync("logout");
         }
 
         //Login User
@@ -51,6 +55,7 @@ namespace Blazor_wasm_jwt.Auth.Services
                 {
                     //store the token in session storage
                     await _sessionStorageService.SetItemAsync(JWT_KEY, response.JwtToken);
+                    await _sessionStorageService.SetItemAsync(RERESH_KEY, response.RefreshToken);
                 }
 
                 return response.Message;
@@ -75,5 +80,34 @@ namespace Blazor_wasm_jwt.Auth.Services
 
         }
 
+        public async Task<bool> Refresh()
+        {
+            var request = new TokenInfoDTO
+            {
+                JwtToken = await _sessionStorageService.GetItemAsync<string>(JWT_KEY),
+                RefreshToken = await _sessionStorageService.GetItemAsync<string>(RERESH_KEY)
+            };
+
+            var result = await _factory.CreateClient("ServerApi").PostAsJsonAsync("api/Account/Request-RefreshToken", request);
+
+            if(result.IsSuccessStatusCode)
+            {
+                var content = await result.Content.ReadAsStringAsync();
+                var response = JsonConvert.DeserializeObject<AuthenticationResponseDTO>(content);
+
+                await _sessionStorageService.SetItemAsync(JWT_KEY, response!.JwtToken);
+                await _sessionStorageService.SetItemAsync(RERESH_KEY, response.RefreshToken);
+
+                _jwtCache = response.JwtToken;
+
+               return true;
+
+            }
+
+            //await LogoutAcync();
+            await Console.Out.WriteAsync("refresh fail");
+
+            return false;
+        }
     }
 }
